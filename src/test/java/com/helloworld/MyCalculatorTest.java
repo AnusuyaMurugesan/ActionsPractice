@@ -26,6 +26,6 @@ public class MyCalculatorTest {
     @Test
     public void testDivision() {
         MyCalculator test = new MyCalculator();
-        Assert.assertEquals("The output should be 2", 2, test.division(8,4));
+        Assert.assertEquals("The output should be 2.0", 2.0, test.division(8,4));
     }
 }
